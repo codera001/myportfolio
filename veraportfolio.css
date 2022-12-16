@@ -1,0 +1,324 @@
+*{margin:o;
+padding: 0;}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(165, 42, 42);
+ width:100%;
+ margin: 0;
+ padding: rem 0;
+ 
+}
+.navlist{
+  display: flex;
+  justify-content: space-around;
+  width: 60% ;
+  list-style: none;
+ 
+}
+.navlist a {
+  width:10%;
+  text-decoration: none;
+  color:black ;
+  background-color: white ;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(17, 17, 17, 0.105);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: relative;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
+.sidenav img{
+    width: 80%;
+    height: 30vh;
+    margin: 1rem;
+    
+}
+.socials{
+    display: flex;
+    background-color: white;
+    /* width: 100%; */
+    padding:0 ;
+}
+.socials a {
+    width: 2px;
+    color:black ;
+}
+.background {
+  background-color: rgba(128, 128, 128, 0.379);
+  display: block;
+  padding: 1rem 0;
+  background-image: url(IMG1.jpg);
+  background-size:700px 700px;
+  background-clip: padding-box;
+  border: 2px solid brown;
+  border-radius: 50px;
+
+  background-position:right top;
+  /* margin-right: 200px; */
+  background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+}
+.background h1 {
+  font-size: 50px;
+  padding-left: 30rem;
+  padding-bottom: 2rem;
+  color: brown;
+  
+  
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.background h3 {
+  font-size: 70px;
+  padding-left: 20rem;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  padding-bottom: 6rem;
+  color: brown;
+}
+.background h6 {
+  font-size: 40px;
+  padding-left: 19rem;
+  padding-top: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-weight: bolder;
+  color: brown;
+}
+.aboutme {
+  background-color: rgba(165, 42, 42, 0.229);
+  padding-top: 10rem;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16rem;
+  
+}
+.image-one {
+  width: 52%;
+  padding-left: 3rem;
+  
+
+}
+.image-one img {
+  width: 100%;
+  height: 50vh;
+  border: 2px solid brown;
+  border-radius: 100px;
+  
+ 
+}
+.image-two {
+  width: 45%;
+
+}
+.image-two img{
+  width: 100%;
+  height: 50vh;
+  border: 2px solid brown;
+  border-radius: 100px;
+}
+.aboutme .text {
+  padding-left: 16rem;
+  padding-top: 3rem;
+}
+.aboutme .text h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;}
+  .aboutme .text p {
+    letter-spacing: 2px;
+    word-spacing: 1px;
+  }
+  .aboutme  .text button {
+    padding: 2rem;
+    border: none;
+    border-radius: 30px;
+    margin: 1rem 0;
+  }
+  .aboutme  .text button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 15px;
+  }
+  .aboutme  .text button a:hover{
+    color: brown;
+  }
+.aboutme .skills {
+  padding-left: 16rem;
+  margin-top: 5rem;
+}
+.skills h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  
+}
+.skills-group{
+  display: flex;
+  justify-content: space-between;
+}
+.skills-group .item {
+  margin: 0 2rem 3rem 2rem;
+}
+.skills-group .header {
+  margin:2rem 0 ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.skills-group .technical-skills{
+  width: 45%;
+}
+.skills-group .technical-skills p,ul,li {
+  font-weight: bolder;
+  text-align: center;
+}
+.skills-group .personal-skills p{
+  font-weight: bolder;
+  text-align: center;
+}
+.skills-group .personal-skills{
+  width: 45%;
+}
+.progress {
+  background-color: white;
+}
+.progress-bar {
+  background-color:brown ;
+}
+.aboutme .alert {
+  text-align: center;
+}
+.aboutme .alert  h1 button {
+  background-color: green;
+  font-size: 40px;
+  padding: 2rem;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+.aboutme .alert button:hover{
+
+}
+.aboutme .alert a button{
+  background-color: red;
+  font-size: 20px;
+  padding: 2rem;
+  border:  solid 2px white; 
+}
+.contact{
+  padding-left: 16rem;
+  padding-top: 1rem;
+  background-color: rgba(165, 42, 42, 0.016);
+}
+.contact .underline{
+  margin: 3rem 0;
+}
+  .contact-loc {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.contact-loc .message{
+  width: 30%;
+  background-color: rgba(128, 128, 128, 0.152);
+  text-align: center;
+  padding: 2rem;
+  
+}
+.contact-loc .location{
+  width: 30%;
+  background-color: brown;
+  text-align: center;
+  padding: 2rem;
+}
+.contact-loc .phone{
+  width: 30%;
+  background-color: rgba(128, 128, 128, 0.152);
+  text-align: center;
+  padding: 2rem;
+}
+form .name{
+padding: 1rem 0;
+}
+form .name input{
+  width: 100%;
+  background-color: white;
+  border: solid 2px brown;
+  border-radius: 5px;
+  height: 5vh;
+}
+form .email{
+  padding: 1rem 0;
+}
+form .email input{
+  width: 100%;
+  background-color: white;
+  border: solid 2px brown;
+  border-radius: 5px;
+  height: 5vh;
+}
+form.message{
+  padding: 1rem 0;
+}
+
+#textarea {
+  border:solid 2px brown;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+form .button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+
+}
+
+.footer {
+  background-color: rgba(128, 128, 128, 0.379);
+  color: black;
+  text-align: center;
+  padding: 3rem;
+  margin-top: 3rem;
+}
